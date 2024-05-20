@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free API Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      margin-bottom: 30px; /* Increased margin between title and content */
+      color: #333;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+    p {
+      margin-bottom: 20px;
+      color: #666;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto;
+      width: fit-content;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .stack-info {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 40px;
+    }
+    .stack-info h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .stack-info ul {
+      margin-top: 10px;
+    }
+    .stack-info li {
+      margin-bottom: 8px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Free API Support</h1>
+
+  <h2>Problem Slug Data</h2>
+  <p>Get data for a specific problem slug. This API endpoint provides information about a particular problem based on its slug.</p>
+  <ul>
+    <li><a href="http://localhost:3000/data?problemSlug=bz-max-min-stack">http://localhost:3000/data?problemSlug=bz-max-min-stack</a></li>
+  </ul>
+
+  <h2>Company Data</h2>
+  <p>Get data for a specific company. This API endpoint retrieves information related to a particular company.</p>
+  <ul>
+    <li><a href="http://localhost:3000/company-data?companyName=Apple">http://localhost:3000/company-data?companyName=Apple</a></li>
+  </ul>
+
+  <h2>Student Data</h2>
+  <p>Get data for a specific student. This API endpoint fetches information about a particular student.</p>
+  <ul>
+    <li><a href="http://localhost:3000/student-data?studentName=Vikas">http://localhost:3000/student-data?studentName=Vikas</a></li>
+  </ul>
+
+
+  <h2>Data Included</h2>
+  <p>The API endpoints provide access to the following data:</p>
+  <ul>
+    <li>Problem Slug Data: Information about specific problems</li>
+    <li>Company Data: Details related to specific companies</li>
+    <li>Student Data: Information about specific students</li>
+  </ul>
+
+  <h2>Generated Content</h2>
+  <p>The generated content includes:</p>
+  <ul>
+    <li>Problem Slug Data: Details about the problem, including outgoing and incoming relationships</li>
+    <li>Company Data: Information about the company, including outgoing and incoming relationships with students</li>
+    <li>Student Data: Details about the student, including outgoing and incoming relationships with companies</li>
+  </ul>
+
+  <div class="stack-info">
+    <h2>Stack Used</h2>
+    <ul>
+      <li>Backend: Node.js with Express.js</li>
+      <li>Database: Neo4j (Graph Database)</li>
+      <li>Frontend: HTML, CSS (minimal)</li>
+    </ul>
+  </div>
+
+  <script>
+    // You can add JavaScript code here if needed
+  </script>
+</body>
+</html>
